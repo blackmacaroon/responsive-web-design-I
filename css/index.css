@@ -219,15 +219,16 @@ footer {
       }    
 
       header .nav {
-            border: 1px solid red;
+            display: inline-block;
+            align-items: stretch;
             width: 100%;
       }
 
       header nav a {
+            display: inline-flex;
+            justify-content: space-evenly;
             padding-top: 20px;
-            width: 14%;
-            margin: 0;
-            position: relative;
+            margin: auto;
       }
       
       section.section{ 
@@ -254,6 +255,7 @@ footer {
       header nav {
             display: flex;
             flex-direction: column;
+            justify-content: space-evenly;
       }
 
       header nav a {
