@@ -219,14 +219,18 @@ footer {
       }    
 
       header .nav {
-            display: inline-block;
-            align-items: stretch;
             width: 100%;
       }
 
-      header nav a {
-            display: inline-flex;
+      header nav {
+            display: flex;
             justify-content: space-evenly;
+      }
+
+      header nav a {
+            display: flex;
+            justify-content: space-evenly;
+            position: relative;
             padding-top: 20px;
             margin: auto;
       }
