@@ -81,9 +81,18 @@ header a {
 }
 
 nav a {
-  margin-right: 45px;
+  margin-right: 40px;
   color: #AEAEAE;
 }
+
+nav a:hover {
+      color: orangered;
+}
+
+button:hover {
+      background: orangered;
+      color: white;
+  }
 
 .titleButton {
   text-align: center;
@@ -165,6 +174,11 @@ footer {
   margin-bottom: 40px;
 }
 
+.services-header-img {
+      width: 100%;
+      height: auto;
+}
+
 .card {
   border: 1px solid black;
   border-radius: 3%;
@@ -180,10 +194,17 @@ footer {
 
 .b {
   display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
+}
+.services-info-img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
 }
 
 .bottomService {
@@ -247,7 +268,14 @@ footer {
             height: auto;
       }
 
+      .container .b {
+            display: flex;
+            flex-direction: column-reverse;
+      }
       
+      .services-info-img {
+            margin-bottom: 20px;
+      }
 }
 
 /*phone*/
