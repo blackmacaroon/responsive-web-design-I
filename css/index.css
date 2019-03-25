@@ -221,10 +221,10 @@ footer {
             height: auto;
       }
 
-      header nav {
+      header nav a {
             padding-top: 20px;
             margin-right: 0;
-            justify-content: space-evenly;
+            justify-content: space-between;
       }
 }
 
